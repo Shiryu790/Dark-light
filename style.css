@@ -1,0 +1,46 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    width: 20% ;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.contenu {
+    padding : 20px 10%;
+    text-align : justify; 
+    line-height: 200%;
+}
+
+.btn-toggle { 
+    position        : absolute; 
+    top             : 15px;    
+    right           : 15px; 
+    width           : 80px; 
+    height          : 80px; 
+    border-radius   : 50%;
+    background      : #333;
+    color           : #fff; 
+    border          : 3px solid #333; 
+    display         : flex; 
+    align-items     : center ;
+    justify-content : center ;
+    cursor          : pointer; 
+
+}
+
+body.dark {
+    color               : #fff !important; 
+    background-color    : #333 !important;
+}
+
+body.dark .btn-toggle {
+    background      : #f1f1f1;
+    color           : #333;
+}
